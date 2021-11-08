@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+body::-webkit-scrollbar{
+    width: 9px;
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #8A0D0C;
+    border-radius: 5px;
+    
+}
+body{
+    background: url(/assets/pokemon-Fondo-1.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y; 
+}
+header{
+   display: flex;
+   justify-content: center;
+   margin: 1rem;
+}
+
+.font{
+    font-family: 'Mohave';
+}
+
+.tittle{
+    background-color: #8A0D0C;
+    width: 32%;
+    height: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mohave', sans-serif;
+}
+
+.card-gradient{
+    padding: 15px 15px;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 17rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255,255,255, 0.060);
+    border: .1rem solid rgba(255,255,255, 0.18);
+    color: black;
+}
+.pokemon-info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: gray;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.pokemonImg{
+    width: 280px;
+    height: 280px;
+}
+.container-pokemon-info{
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+    padding: 10px 10px; 
+}
+.input-buscardor{
+    width: 150px;
+    height: 30px;
+    margin: 0px 10px;
+}
+.button-container{ 
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+}
+
+.input-buscardor{
+    border-radius: 8px;
+    padding: 5px;
+}
