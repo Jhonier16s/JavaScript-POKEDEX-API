@@ -16,7 +16,7 @@ body::-webkit-scrollbar-thumb{
     
 }
 body{
-    background: url('assets/pokemon-Fondo-1.jpg');
+    background: url('/assets/pokemon-Fondo-1.jpg');
     background-size: 100%;
     background-repeat: repeat-y; 
 }
